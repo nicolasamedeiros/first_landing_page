@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Página que vai armazenar todos os trabalhos e portfólios do Nicolas">  <!--meta description (Aquela descrição que fica abaixo do nome do site)-->
+    <title>Nicolas Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> <!--link para ligar meu arquivo css no meu html-->
+</head>
+
+<body>
+    <header class="cabecalho"> <!--tag semântica que cria um cabeçalho-->
+        <img class="cabecalho-imagem" src="Imagens/atom.svg" alt="Nicolas Logo"> <!--tag semântica para colocar uma foto e alt, caso a imagem não apareça tem um nome indicando-->
+        <nav class="cabecalho-menu"> <!--Menu de navegação (onde vai ter botões para você ir para outras páginas)-->
+            <a class="cabecalho-menu-item">Página principal</a> <!--tag ancora que leva a gente pra outra página-->
+            <a class="cabecalho-menu-item">Portfólio</a>
+            <a class="cabecalho-menu-item">Quem é Nicolas</a>
+            <a class="cabecalho-menu-item">Contato</a>
+        </nav>         
+    </header>
+
+    <main class="conteudo"> <!--tag semântica que cria a parte principal do site-->
+        
+        <section class="conteudo-principal"> <!--tag semântica para dividir a parte principal da página em duas-->
+            <div class="conteudo-principal-escrito"> <!--Divisão para os textos-->
+                <h1 class="conteudo-principal-escrito-titulo">Bem vindo a minha Landing Page</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Aqui é uma página de um estudante iniciante em html/css</h2>
+                <a href="https://github.com/nicolasamedeiros"><button class="conteudo-principal-escrito-butao">Minha conta github</button></a> <!--botão-->
+            </div>
+            <img class="conteudo-principal-imagem" src="Imagens/github.svg" alt="Imagem github">
+        </section>
+        
+        <section class="conteudo-secundario">
+            <h3 class="conteudo-secundario-titulo">O que você vai encontar aqui ?</h3>
+            <p class="conteudo-secundario-paragrafo">1. Você vai encontar meus trabalhos.</p> <!--tag semântica de paragráfo-->
+            <p class="conteudo-secundario-paragrafo">2. Um pouco sobre a minha história e como comecei no mundo da programação.</p>
+            <p class="conteudo-secundario-paragrafo">3. Vai encontrar meios de como entrar em contato comigo.</p>
+        </section>
+    </main>
+
+    <footer class="rodape"> <!--tag semântica que cria um roda pé na página-->
+        <div class="imagens">
+        <a class="rodape-imagem" href="https://twitter.com/Nicolasnmd"><img class="logos" src="Imagens/twitter.svg"></a>
+        <a class="rodape-imagem" href="https://www.facebook.com/nicolas.almeidamedeiros/"><img class="logos" src="Imagens/facebook.svg"></a>
+        <a class="rodape-imagem" href="https://www.instagram.com/nicolas_a_medeiros/"><img class="logos" src="Imagens/Instagram.svg"></a>
+        </div>    
+    </footer>
+</body>
+</html>

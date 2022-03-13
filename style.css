@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Inconsolata:wght@300&display=swap');  /*Fontes que eu vou usar no site*/
+
+* { /*comando para resetar as configuração pré-programadas da página*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body { /*comando para mudar o tamanho da fonte e o fundo da página*/
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho { /*Comando para estilizar o cabecalho que eu criei usando uma class no arquivo html*/
+    display: flex; /*Comando para usar o flex box*/
+    flex-direction: row; /*Comando para deixar tudo do cabecalho em formato de linha*/
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px; /* da o espacamento de 24 pixels no site todo*/
+}
+
+.cabecalho-imagem {
+    height: 74px; /* altura da imagem*/
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px; /*espacamento entre os textos do cabeçalho*/
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif; /*trocar a fonte das ancoras*/
+    color: #FFF2E7;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.conteudo{
+    margin-bottom: 48px; /*distância entre o conteúdo principal e o rodapé*/
+    border-top: 0.4px solid #FFF2E7; /*linha que separa o cabeçalho da parte principal, onde declarei a espessura da linha seu formato e a cor*/
+}
+
+.conteudo-principal{
+    display: flex;
+    margin-top: 190px; /*distância entre o conteúdo principal e o topo*/
+    flex-direction: row; /*deixar todos os elementos filhos em formato de linha*/
+    align-items: center; /*deixar todos os elementos filhos no centro*/
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito{
+    display: flex;
+    flex-direction: column; /*deixar todos os elementos em formato de coluna*/
+    gap: 30px; /*espaçamento entre os elementos*/
+
+}
+
+.conteudo-principal-escrito-titulo{
+    font-family: 'Righteous', cursive; /*fonte do texto*/
+    font-weight: 400; /*peso da fonte*/
+    font-size: 64px; /*tamanho da fonte*/
+    color: #FFF2E7; /*cor da fonte*/
+}
+
+.conteudo-principal-escrito-subtitulo{
+    font-family: 'Sarala', sans-serif; /*fonte do texto*/
+    font-weight: 400; /*peso da fonte*/
+    font-size: 24px; /*tamanho da fonte*/
+    color: #ECD6C4; /*cor da fonte*/
+}
+
+.conteudo-principal-escrito-butao{
+    background-color: #ECD6C4; /*cor do fundo do botão*/
+    width: 180px; /*altura do botão*/
+    height: 60px; /*largura do botão*/
+    border: none; /*remover a borda*/
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); /*efeito de sombra no botão*/
+    border-radius: 20px; /*deixar o botão arredondado*/
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2F2325;
+}
+
+.conteudo-principal-escrito-butao:hover { /*mudar de cor quando o mouse passar em cima do botão*/
+    background-color: rgba(236, 214, 196, 0.53);    
+}
+
+
+.conteudo-principal-imagem{
+    height: 430px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column; /*deixa os elementos em formato de coluna*/
+    align-items: center; /*deixa os elementos alinhados no centro*/
+    gap: 24px; /*espaçamentos dos elementos*/
+    margin-top: 48px; /*espaço ente o conteudo principal e o secundário*/
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive; /*fonte do texto*/
+    font-weight: 400; /*peso da fonte*/
+    font-size: 24px; /*tamanho da fonte*/
+    color: #FFF2E7; /*cor da fonte*/
+    margin-bottom: 16px; /*espaço entre o titulo e os demais elementos*/
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif; /*fonte do texto*/
+    font-weight: 300; /*peso da fonte*/
+    font-size: 18px; /*tamanho da fonte*/
+    color: #ECD6C4; /*cor da fonte*/
+}
+
+.rodape{
+    padding: 32px; /*espaçamento de 32px em todos os lados*/
+    border: 0.4px solid #FFF2E7; /*linha do rodape*/
+}
+
+.imagens{ /*centralizar as imagens no meio*/
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.rodape-imagem{  /*centralizar as imagens no meio*/
+    display: block;
+    margin: 0 auto;
+}
+
+.logos{
+    height: 60px;
+}
